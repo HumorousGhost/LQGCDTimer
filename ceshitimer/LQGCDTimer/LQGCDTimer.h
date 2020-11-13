@@ -33,7 +33,7 @@
 
 /// 手动开启某定时器
 /// @param mark 定时器标记
-- (void)handStartWithMark:(NSString *)mark;
+- (void)startWithMark:(NSString *)mark;
 
 /// 停止某定时器
 /// @param mark 定时器标记

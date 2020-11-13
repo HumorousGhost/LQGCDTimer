@@ -67,7 +67,7 @@
     [self.mapTable setValue:source forKey:mark];
 }
 
-- (void)handStartWithMark:(NSString *)mark {
+- (void)startWithMark:(NSString *)mark {
     dispatch_source_t source = [self.mapTable objectForKey:mark];
     if (source) {
         dispatch_resume(source);
